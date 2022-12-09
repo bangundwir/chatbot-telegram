@@ -1,0 +1,2 @@
+#/bin/bash
+pm2 start chatbot.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read --allow-env"
