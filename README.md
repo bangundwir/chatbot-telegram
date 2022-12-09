@@ -64,6 +64,13 @@ You can also run with these parammeters to give permission by default.
 ```
 deno run --allow-read --allow-env --allow-net chatbot.ts
 ```
+Run PM2
+```
+npm install pm2 -g
+```
+```
+pm2 start chatbot.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read --allow-env"
+```
 
 ## 🔑 Get ChatGPT Session Token
 1. Open ChatGPT playground in your browser.
